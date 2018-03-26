@@ -9,6 +9,7 @@ the color red, white, and blue respectively.
 Note:
 You are not suppose to use the library's sort function for this problem.
 """
+from __future__ import print_function
 
 
 def sort_colors(nums):

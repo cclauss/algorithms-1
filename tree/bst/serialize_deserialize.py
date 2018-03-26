@@ -1,3 +1,4 @@
+from ..tree import TreeNode
 
 
 def serialize(root):

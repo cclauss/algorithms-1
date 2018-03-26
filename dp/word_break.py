@@ -18,6 +18,7 @@ s = abc word_dict = ["a","bc"]
 True False False False
 
 """
+from __future__ import print_function
 
 
 # TC: O(N^2)  SC: O(N)

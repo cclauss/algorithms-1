@@ -3,6 +3,7 @@ Segment_tree creates a segment tree with a given array and function,
 allowing queries to be done later in log(N) time
 function takes 2 values and returns a same type value
 '''
+from __future__ import print_function
 class segment_tree:
     def __init__(self,arr,function):
         self.segment = [0 for x in range(3*len(arr)+3)]
@@ -25,7 +26,7 @@ class segment_tree:
             return self.segment[i]
         val1 = self.__query(2*i+1,L,int((L+R)/2),l,r)
         val2 = self.__query(2*i+2,int((L+R+2)/2),R,l,r)
-        print(L,R," returned ",val1,val2)
+        print((L,R," returned ",val1,val2))
         if val1 != None:
             if val2 != None:
                 return self.fn(val1,val2)

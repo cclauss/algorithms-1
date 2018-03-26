@@ -27,15 +27,17 @@ Visually, the graph looks like the following:
          \_/
 """
 
+import collections
+
 
 # Definition for a undirected graph node
-# class UndirectedGraphNode:
-#     def __init__(self, x):
-#         self.label = x
-#         self.neighbors = []
-
-
+class UndirectedGraphNode:
+    def __init__(self, x):
+        self.label = x
+        self.neighbors = []
 # BFS
+
+
 def cloneGraph1(self, node):
     if not node:
         return

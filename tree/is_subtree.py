@@ -44,6 +44,8 @@
 # Follow up:
 # What if one tree is significantly lager than the other?
 
+import collections
+
 
 def is_subtree(big, small):
     flag = False
@@ -65,5 +67,3 @@ def comp(p, q):
     if p and q:
         return p.val == q.val and comp(p.left,q.left) and comp(p.right, q.right)
     return False
-
-

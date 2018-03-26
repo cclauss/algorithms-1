@@ -27,6 +27,7 @@ output:
   [2, 2, 2, 4],
   [2, 2, 2, 2, 2],
 """
+from __future__ import print_function
 
 
 def get_factors(n):

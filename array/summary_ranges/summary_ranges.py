@@ -1,3 +1,4 @@
+from __future__ import print_function
 def summary_ranges(nums):
     res = []
     l = len(nums)

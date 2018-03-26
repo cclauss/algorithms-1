@@ -1,3 +1,4 @@
+from __future__ import print_function
 from collections import namedtuple
 
 Interval = namedtuple('Interval', ['start', 'end'])
@@ -21,7 +22,7 @@ if __name__ == "__main__":
     given = [[1, 3], [2, 6], [8, 10], [15, 18]]
     given_intervals = [Interval(*i) for i in given]
     expected = [[1, 6], [8, 10], [15, 18]]
-    print("input: ", given)
-    print("result: ", [[interv.start, interv.end]
-                       for interv in merge_intervals(given_intervals)])
-    print("output should be: ", expected)
+    print(("input: ", given))
+    print(("result: ", [[interv.start, interv.end]
+                       for interv in merge_intervals(given_intervals)]))
+    print(("output should be: ", expected))

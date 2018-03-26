@@ -1,3 +1,4 @@
+from __future__ import print_function
 # TODO: FFT implementation for MlogM algo
 
 def three_sum(nums):
@@ -28,6 +29,6 @@ def three_sum(nums):
 
 if __name__ == "__main__":
     x = [-1, 0, 1, 2, -1, -4]
-    print("input: ", x)
-    print("output should be: ", [[-1, -1, 2], [-1, 0, 1]])
-    print("output: ", three_sum(x))
+    print(("input: ", x))
+    print(("output should be: ", [[-1, -1, 2], [-1, 0, 1]]))
+    print(("output: ", three_sum(x)))

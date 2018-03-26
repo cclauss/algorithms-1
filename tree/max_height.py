@@ -4,6 +4,7 @@ Given a binary tree, find its maximum depth.
 The maximum depth is the number of nodes along the
 longest path from the root node down to the farthest leaf node.
 """
+from __future__ import print_function
 
 
 class Node():
@@ -51,4 +52,4 @@ tree.right.left = Node(36)
 
 height = max_height(tree)
 print_tree(tree)
-print("height:", height)
+print(("height:", height))

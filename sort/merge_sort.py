@@ -1,3 +1,4 @@
+from __future__ import print_function
 def merge_sort(arr):
     """ Merge Sort
         Complexity: O(n log(n))

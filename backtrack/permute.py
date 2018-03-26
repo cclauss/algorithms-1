@@ -1,3 +1,4 @@
+from __future__ import print_function
 # Given a collection of distinct numbers, return all possible permutations.
 
 # For example,
@@ -18,7 +19,7 @@ def permute(nums):
         for perm in perms:
             for i in range(len(perm)+1):
                 new_perms.append(perm[:i] + [n] + perm[i:])   ###insert n
-                print(i, perm[:i], [n], perm[i:], ">>>>", new_perms)
+                print((i, perm[:i], [n], perm[i:], ">>>>", new_perms))
         perms = new_perms
     return perms
 

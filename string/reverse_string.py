@@ -1,3 +1,4 @@
+from __future__ import print_function
 def recursive(s):
     l = len(s)
     if l < 2:

@@ -36,7 +36,7 @@ def match_symbol(chemicals, symbols):
     return combined
 
 
-print match_symbol(chemicals, symbols)
+print(match_symbol(chemicals, symbols))
 
 """
 One approach is to use a Trie for the dictionary (the symbols), and then match
@@ -79,4 +79,4 @@ def bracket(words, symbols):
     return tuple(word if word not in result else result[word] for word in words)
 
 bracket(['amazon', 'microsoft', 'google'], ['i', 'am', 'cro', 'na', 'le', 'abc'])
->>> ('[am]azon', 'mi[cro]soft', 'goog[le]')
+# >>> ('[am]azon', 'mi[cro]soft', 'goog[le]')

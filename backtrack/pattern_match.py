@@ -12,6 +12,7 @@ pattern = "aabb", str = "xyzabcxzyabc" should return false.
 Notes:
 You may assume both pattern and str contains only lowercase letters.
 """
+from __future__ import print_function
 
 
 def pattern_match(pattern, string):

@@ -1,3 +1,4 @@
+from __future__ import print_function
 from typing import List, Dict, Iterator
 
 
@@ -45,9 +46,9 @@ def garage(beg: List[int], end: List[int]):
 if __name__ == '__main__':
     initial = [1, 2, 3, 0, 4]
     final = [0, 3, 2, 1, 4]
-    print("initial:", initial)
+    print(("initial:", initial))
     print(garage(initial, final))
-    print("final should be:", final)
+    print(("final should be:", final))
 
 
 # def garage(beg, end):

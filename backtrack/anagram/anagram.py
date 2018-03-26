@@ -1,3 +1,4 @@
+from __future__ import print_function
 # probably the most pythonic (and fastest) way
 def perm(word):
     from itertools import permutations

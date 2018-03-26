@@ -10,6 +10,7 @@ except the number 0 itself.
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 """
+from __future__ import print_function
 
 
 class Node:
@@ -23,7 +24,7 @@ def add_two_numbers(left:"Node", right:"Node")->"Node":
     current = head
     sum = 0
     while left or right:
-        print("adding: ", left.val, right.val)
+        print(("adding: ", left.val, right.val))
         sum //= 10
         if left:
             sum += left.val

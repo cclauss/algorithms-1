@@ -1,3 +1,4 @@
+from __future__ import print_function
 class ZigZagIterator:
     def __init__(self, v1, v2):
         """
@@ -28,4 +29,4 @@ l1 = [1, 2]
 l2 = [3, 4, 5, 6]
 it = ZigZagIterator(l1, l2)
 while it.has_next():
-    print(it.next())
+    print(next(it))

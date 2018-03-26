@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 def license_number(key, K):
     res, alnum = [], []
@@ -11,9 +12,9 @@ def license_number(key, K):
     return "".join(res[::-1])
 
 
-print(license_number("a-bc-dfd-df", 1), 1)
-print(license_number("a-bc-dfd-df", 2), 2)
-print(license_number("a-bc-dfd-df", 3), 3)
-print(license_number("a-bc-dfd-df", 4), 4)
-print(license_number("a-bc-dfd-df", 5), 5)
+print((license_number("a-bc-dfd-df", 1), 1))
+print((license_number("a-bc-dfd-df", 2), 2))
+print((license_number("a-bc-dfd-df", 3), 3))
+print((license_number("a-bc-dfd-df", 4), 4))
+print((license_number("a-bc-dfd-df", 5), 5))
 

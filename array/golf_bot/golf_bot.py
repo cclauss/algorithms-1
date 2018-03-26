@@ -1,3 +1,4 @@
+from __future__ import print_function
 from numpy.fft import rfft, irfft
 import numpy as np
 

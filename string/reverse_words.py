@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 def reverse(array, i, j):
     while i < j:

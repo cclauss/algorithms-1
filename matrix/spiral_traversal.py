@@ -12,6 +12,7 @@ Given the following matrix:
 
 You should return [1,2,3,6,9,8,7,4,5].
 """
+from __future__ import print_function
 
 
 def spiral_traversal(matrix):

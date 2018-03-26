@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 
 def longest_increasing_subsequence(sequence):
@@ -17,7 +18,7 @@ def longest_increasing_subsequence(sequence):
 
 
 sequence = [1, 101, 10, 2, 3, 100, 4, 6, 2]
-print("sequence: ", sequence)
-print("output: ", longest_increasing_subsequence(sequence))
-print("answer: ", 5)
+print(("sequence: ", sequence))
+print(("output: ", longest_increasing_subsequence(sequence)))
+print(("answer: ", 5))
 

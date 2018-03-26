@@ -6,6 +6,7 @@ determine if the input string is valid.
 The brackets must close in the correct order,
 "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 """
+from __future__ import print_function
 
 
 def is_valid(s:"str")->"bool":
@@ -27,12 +28,12 @@ def is_valid(s:"str")->"bool":
 
 if __name__ == "__main__":
     paren = "[]"
-    print(paren, is_valid(paren))
+    print((paren, is_valid(paren)))
     paren = "[]()[]"
-    print(paren, is_valid(paren))
+    print((paren, is_valid(paren)))
     paren = "[[[]]"
-    print(paren, is_valid(paren))
+    print((paren, is_valid(paren)))
     paren = "{([])}"
-    print(paren, is_valid(paren))
+    print((paren, is_valid(paren)))
     paren = "(}"
-    print(paren, is_valid(paren))
+    print((paren, is_valid(paren)))

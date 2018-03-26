@@ -1,3 +1,4 @@
+from __future__ import print_function
 myGraph = {'A': ['B', 'C'],
          'B': ['C', 'D'],
          'C': ['D', 'F'],

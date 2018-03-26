@@ -10,6 +10,7 @@ Examples:
 "00", 0 -> ["0+0", "0-0", "0*0"]
 "3456237490", 9191 -> []
 """
+from __future__ import print_function
 
 def add_operator(num, target):
     """

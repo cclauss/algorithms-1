@@ -1,3 +1,4 @@
+from __future__ import print_function
 def count_elem(array, query):
     def first_occurance(array, query):
         lo, hi = 0, len(array) -1
@@ -34,19 +35,19 @@ array = [1,2,3,3,3,3,4,4,4,4,5,6,6,6]
 print(array)
 print("-----COUNT-----")
 query = 3
-print("count: ", query, " :" , count_elem(array, query))
+print(("count: ", query, " :" , count_elem(array, query)))
 print("-----COUNT-----")
 query = 5
-print("count: ", query, " :" , count_elem(array, query))
+print(("count: ", query, " :" , count_elem(array, query)))
 print("-----COUNT-----")
 query = 7
-print("count: ", query, " :" , count_elem(array, query))
+print(("count: ", query, " :" , count_elem(array, query)))
 print("-----COUNT-----")
 query = 1
-print("count: ", query, " :" , count_elem(array, query))
+print(("count: ", query, " :" , count_elem(array, query)))
 print("-----COUNT-----")
 query = -1
-print("count: ", query, " :" , count_elem(array, query))
+print(("count: ", query, " :" , count_elem(array, query)))
 print("-----COUNT-----")
 query = 9
-print("count: ", query, " :" , count_elem(array, query))
+print(("count: ", query, " :" , count_elem(array, query)))

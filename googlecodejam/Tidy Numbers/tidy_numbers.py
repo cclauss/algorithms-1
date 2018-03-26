@@ -1,3 +1,4 @@
+from __future__ import print_function
 def is_tidy(num):
     n = len(num)
     if n == 1:

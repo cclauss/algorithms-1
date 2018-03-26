@@ -1,3 +1,4 @@
+from __future__ import print_function
 # Given an encoded string, return it's decoded string.
 
 # The encoding rule is: k[encoded_string], where the encoded_string

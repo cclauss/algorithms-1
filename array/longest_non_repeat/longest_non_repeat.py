@@ -1,3 +1,4 @@
+from __future__ import print_function
 from typing import Dict
 
 
@@ -14,6 +15,6 @@ def longest_non_repeat(s: str) -> int:
 
 
 a = "abcabcdefbb"
-print("input: ", a)
-print("result: ", longest_non_repeat(a))
+print(("input: ", a))
+print(("result: ", longest_non_repeat(a)))
 print("output should be 6")

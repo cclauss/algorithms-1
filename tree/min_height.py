@@ -1,3 +1,4 @@
+from __future__ import print_function
 class Node():
     def __init__(self, val = 0):
         self.val = val
@@ -53,4 +54,4 @@ tree.right.left = Node(36)
 
 height = min_height(tree)
 print_tree(tree)
-print("height:", height)
+print(("height:", height))

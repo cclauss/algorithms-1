@@ -1,3 +1,4 @@
+from __future__ import print_function
 # Given a set of words (without duplicates),
 # find all word squares you can build from them.
 

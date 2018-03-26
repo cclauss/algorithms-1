@@ -9,6 +9,7 @@ b relies on c
 
 then a valid sequence is [c, b, a]
 """
+from __future__ import print_function
 
 depGraph = {
 

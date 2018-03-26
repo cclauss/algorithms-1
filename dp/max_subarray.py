@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 def max_subarray(array):
     max_so_far = max_now = array[0]

@@ -10,6 +10,7 @@ Given a list of non-negative integers representing the amount of money
 of each house, determine the maximum amount of money you
 can rob tonight without alerting the police.
 """
+from __future__ import print_function
 
 
 def house_robber(houses):

@@ -33,6 +33,7 @@ There must be no consecutive horizontal lines of equal height in the output skyl
 into one in the final output as such: [...[2 3], [4 5], [12 7], ...]
 
 """
+from __future__ import print_function
 
 import heapq
 

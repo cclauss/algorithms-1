@@ -1,6 +1,7 @@
 """
 input two of the three side in right angled triangle and return the third. use "?" to indicate the unknown side. 
 """
+from __future__ import print_function
 
 def pythagoras(opposite,adjacent,hypotenuse):
     try:

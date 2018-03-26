@@ -10,6 +10,9 @@
 # * size() returns the number of items in the queue.
 #   It needs no parameters and returns an integer.
 
+from ..stack import AbstractStack
+
+
 class AbstractQueue:
     def __init__(self):
         self.top = 0

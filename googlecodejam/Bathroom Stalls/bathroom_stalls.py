@@ -1,3 +1,4 @@
+from __future__ import print_function
 import heapq
 from math import ceil, floor
 from collections import Counter

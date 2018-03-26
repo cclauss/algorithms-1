@@ -12,6 +12,7 @@ For example, given n = 3, a solution set is:
   "()()()"
 ]
 """
+from __future__ import print_function
 
 def gen_parenthesis(n:"int")->"List[str]":
     res = []

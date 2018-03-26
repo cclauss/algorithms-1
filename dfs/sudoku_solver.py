@@ -29,8 +29,8 @@ def solveSudoku(self, board):
 def PossibleVals(self):
     a = "123456789"
     d, val = {}, {}
-    for i in xrange(9):
-        for j in xrange(9):
+    for i in range(9):
+        for j in range(9):
             ele = self.board[i][j]
             if ele != ".":
                 d[("r", i)] = d.get(("r", i), []) + [ele]

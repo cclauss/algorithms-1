@@ -1,3 +1,8 @@
+try:
+    xrange          # Python 2
+except NameError:
+    xrange = range  # Python 3
+
 
 def selection_sort(arr):
     """ Selection Sort
@@ -12,5 +17,3 @@ def selection_sort(arr):
         # Using a pythonic swap
         arr[minimum], arr[i] = arr[i], arr[minimum]
     return arr
-
-

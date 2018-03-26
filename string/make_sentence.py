@@ -11,6 +11,7 @@ eg: for given string -> "appletablet"
 "applet", {app, let, apple, t, applet} => 3
 "thing", {"thing"} -> 1
 """
+from __future__ import print_function
 
 count = 0
 
@@ -31,4 +32,4 @@ if __name__ == "__main__":
     dictionarys = ["", "app", "let", "t", "apple", "applet"]
     word = "applet"
     make_sentence(word, dictionarys)
-    print count
+    print(count)

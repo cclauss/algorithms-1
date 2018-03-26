@@ -19,6 +19,7 @@ Return 0 if there is no such transformation sequence.
 All words have the same length.
 All words contain only lowercase alphabetic characters.
 """
+from __future__ import print_function
 def ladderLength(beginWord, endWord, wordList):
     """
     Bidirectional BFS!!!

@@ -1,3 +1,4 @@
+from __future__ import print_function
 from typing import List
 
 
@@ -14,10 +15,10 @@ def plus_one(digits: List[int]):
 
 
 a = [8, 8, 9]
-print('input', a)
-print('output', plus_one(a))
+print(('input', a))
+print(('output', plus_one(a)))
 
 b = [9, 9, 9, 9]
-print('input', b)
-print('output', plus_one(b))
+print(('input', b))
+print(('output', plus_one(b)))
 

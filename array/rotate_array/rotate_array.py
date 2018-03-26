@@ -1,3 +1,4 @@
+from __future__ import print_function
 def rotate(arr, k):
     n = len(arr)
     k = k % n
@@ -5,6 +6,6 @@ def rotate(arr, k):
 
 
 a = [1, 2, 3, 4, 5, 6, 7]
-print("in: ", a)
-print("expected: ", [5, 6, 7, 1, 2, 3, 4])
-print("out: ", rotate(a, 3))
+print(("in: ", a))
+print(("expected: ", [5, 6, 7, 1, 2, 3, 4]))
+print(("out: ", rotate(a, 3)))

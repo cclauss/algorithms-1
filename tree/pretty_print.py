@@ -1,6 +1,7 @@
+from __future__ import print_function
 # a -> Adam -> Book -> 4
 # b -> Bill -> Computer -> 5
-          # -> TV -> 6
+        # -> TV -> 6
      # Jill -> Sports -> 1
 # c -> Bill -> Sports -> 3
 # d -> Adam -> Computer -> 3
@@ -11,10 +12,10 @@
 
 def treePrint(tree):
     for key in tree:
-        print key, # comma prevents a newline character
+        print(key, end=' ') # end=' ' prevents a newline character
         treeElem = tree[key] # multiple lookups is expensive, even amortized O(1)!
         for subElem in treeElem:
-            print " -> ", subElem,
+            print(" -> ", subElem, end=' ')
             if type(subElem) != str: # OP wants indenting after digits
-                print "\n " # newline and a space to match indenting
-        print "" # forces a newline
+                print("\n ") # newline and a space to match indenting
+        print("") # forces a newline

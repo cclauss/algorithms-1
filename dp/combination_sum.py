@@ -26,6 +26,7 @@ How does it change the problem?
 What limitation we need to add to the question to allow negative numbers?
 
 """
+from __future__ import print_function
 
 dp = None
 
@@ -61,6 +62,6 @@ def combination_sum_bottom_up(nums, target):
 
 
 combination_sum_topdown([1, 2, 3], 4)
-print dp[4]
+print(dp[4])
 
-print combination_sum_bottom_up([1, 2, 3], 4)
+print(combination_sum_bottom_up([1, 2, 3], 4))

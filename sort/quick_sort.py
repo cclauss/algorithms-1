@@ -1,10 +1,11 @@
+from __future__ import print_function
 def quick_sort(arr, first, last):
     """ Quicksort
         Complexity: best O(n) avg O(n log(n)), worst O(N^2)
     """
     if first < last:
         pos = partition(arr, first, last)
-        print(arr[first:pos-1], arr[pos+1:last])
+        print((arr[first:pos-1], arr[pos+1:last]))
         # Start our two recursive calls
         quick_sort(arr, first, pos-1)
         quick_sort(arr, pos+1, last)

@@ -1,3 +1,9 @@
+try:
+    xrange          # Python 2
+except NameError:
+    xrange = range  # Python 3
+
+
 def insertion_sort(arr):
     """ Insertion Sort
         Complexity: O(n^2)

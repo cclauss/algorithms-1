@@ -1,3 +1,4 @@
+from __future__ import print_function
 def missing_ranges(arr, low, high):
     hashed = set(arr)
     for n in range(low, high):
@@ -7,6 +8,6 @@ def missing_ranges(arr, low, high):
 
 inpt = [10, 12, 11, 15]
 low, hi = 10, 15
-print("input: ", inpt)
+print(("input: ", inpt))
 print("result: ")
 missing_ranges(inpt, low, hi)

@@ -1,3 +1,4 @@
+from __future__ import print_function
 
 def wiggle_sort(nums):
     for i in range(len(nums)):
